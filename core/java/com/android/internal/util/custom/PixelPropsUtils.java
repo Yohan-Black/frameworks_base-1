@@ -38,12 +38,11 @@ public class PixelPropsUtils {
             "com.google.android.googlequicksearchbox",
             "com.google.android.apps.recorder"
     };
-    
+
     private static final Map<String, Object> propsToChangePixelXL;
     private static final String[] packagesToChangePixelXL = {
             "com.google.android.apps.photos"
     };
-    
 
     private static final Map<String, ArrayList<String>> propsToKeep;
     private static final String[] extraPackagesToChange = {
@@ -102,7 +101,6 @@ public class PixelPropsUtils {
             "com.tencent.ig",
             "com.pubg.imobile",
             "com.pubg.krmobile",
-            "com.pubg.newstate",
             "com.vng.pubgmobile",
             "com.rekoo.pubgm",
             "com.tencent.tmgp.pubgmhd",
@@ -164,7 +162,7 @@ public class PixelPropsUtils {
             if (Arrays.asList(packagesToChangePixel5).contains(packageName)) {
                 propsToChange = propsToChangePixel5;
             }
-  
+
             if (Arrays.asList(packagesToChangePixelXL).contains(packageName)) {
                 propsToChange = propsToChangePixelXL;
             }
