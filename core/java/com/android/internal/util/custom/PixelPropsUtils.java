@@ -133,8 +133,6 @@ public class PixelPropsUtils {
             "com.riotgames.league.wildrifttw",
             "com.riotgames.league.wildriftvn",
             "com.netease.lztgglobal",
-            "com.epicgames.fortnite",
-            "com.epicgames.portal"
     };
 
     private static ArrayList<String> allProps = new ArrayList<>(Arrays.asList("BRAND", "MANUFACTURER", "DEVICE", "PRODUCT", "MODEL", "FINGERPRINT"));
